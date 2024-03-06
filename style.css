@@ -1,0 +1,13 @@
+#sla {
+    width: 2000px;
+    height: 700px;
+    position: absolute;
+    text-align: center;
+    font-size: 300%;
+    right: -20%;
+}
+
+#sequisermano {
+    position: absolute;
+    top: 50%;
+}
