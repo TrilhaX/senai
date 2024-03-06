@@ -11,13 +11,3 @@
     position: absolute;
     top: 50%;
 }
- 
-.borda {
-    border: solid 20px;
-    border-radius: 0%;
-    background-color: black;
-    position: absolute;
-    text-align: center;
-    font-size: 10px;
-    color: white;
-}
