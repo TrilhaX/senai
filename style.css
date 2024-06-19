@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content img{
+    width: 20%;
+    padding: 0 0 60px 0;
+    filter: drop-shadow(10px 0px 40px gray);
+}
+
+
+.content img:hover{
+    width: 22%;
+    padding: 0 0 50px 0;
+    transition: all .3s ease-in;
+    filter: drop-shadow(10px 0px 30px rgb(0, 195, 255));
+}
+
+.content h1{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    padding: 0 0 35px 0;
+    filter: drop-shadow(5px 2px gray);
+}
+
+.btn-area{
+    display: flex;
+    gap: 40px;
+}
+
+#yes{
+    color: white;
+    background-color: rgba(0, 128, 0, 0.74);
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#yes:hover{
+    color: white;
+    background-color: green;
+    transition: all .1s ease-in;
+    padding: 17px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+}
+
+#no{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.74);
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#no:hover{
+    color: white;
+    background-color: red;
+    transition: all .1s ease-in;
+    padding: 17px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+}

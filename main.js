@@ -1,35 +1,13 @@
-function mensagemaouser(message){
-    alert(message)
-}
+let topMod = 0;
+let leftMod = 0;
 
-function soma(n1, n2){
-    soma = (n1 + n2)
-    alert(soma)
-}
+$("body").on("mousemove", webHandler);
 
-function substração(n1, n2){
-    soma = (n1 - n2)
-    alert(soma)
+function webHandler(event){
+    let button = $('#no').position();
+    let buttonCenter = {
+        x: button.left + 50,
+        y: button.top + 15
+    }
+    let distance = Math.sqrt(Math.pow(event.pageX - buttonCenter))
 }
-
-function multiplication(n1, n2){
-    soma = (n1 * n2)
-    alert(soma)
-}
-
-function divisao(n1, n2){
-    soma = (n1/n2)
-    alert(soma)
-}
-
-function media(n1, n2,n3){
-    soma = (n1 + n2 + n3)/3
-    alert(soma)
-}
-
-mensagemaouser("Seja Bem-Vindo")
-soma(5, 10)
-substração(10,5)
-multiplication(10,5)
-divisao(10,5)
-media(10, 20, 30)
