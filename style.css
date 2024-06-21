@@ -1,82 +1,58 @@
 *{
-    padding: 0;
+
     margin: 0;
 }
 
-body{
-    background-color: black;
-}
-
-.content {
+main{
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content{
+    width: 40vw;
+    background-color: white;
+    padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 30px;
 }
 
 .content img{
-    width: 20%;
-    padding: 0 0 60px 0;
-    filter: drop-shadow(10px 0px 40px gray);
-}
-
-
-.content img:hover{
-    width: 22%;
-    padding: 0 0 50px 0;
-    transition: all .3s ease-in;
-    filter: drop-shadow(10px 0px 30px rgb(0, 195, 255));
-}
-
-.content h1{
-    color: white;
-    font-style: italic;
-    font-size: 50px;
-    padding: 0 0 35px 0;
-    filter: drop-shadow(5px 2px gray);
-}
-
-.btn-area{
-    display: flex;
-    gap: 40px;
-}
-
-#yes{
-    color: white;
-    background-color: rgba(0, 128, 0, 0.74);
-    padding: 15px;
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: white;
-}
-
-#yes:hover{
-    color: white;
-    background-color: green;
-    transition: all .1s ease-in;
-    padding: 17px;
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: white;
-    cursor: pointer;
+    margin-top: 50px;
+    width: 60%;
 }
 
 #no{
+    background-color: red;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    border: none;
     color: white;
-    background-color: rgba(255, 0, 0, 0.74);
-    padding: 15px;
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: white;
+    border-radius: 10px;
 }
 
-#no:hover{
+#yes{
+    background-color: green;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    border: none;
     color: white;
-    background-color: red;
-    transition: all .1s ease-in;
-    padding: 17px;
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: white;
-    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    opacity: 0.7;
+}
+.btn-area{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
 }
